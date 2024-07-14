@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: rgb(245, 242, 242);
+    font-family: "Fira Sans", sans-serif;
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #8dc29a;
+    font-weight: bold;
+    font-size: large;
+    position: fixed;
+}
+
+nav .container {
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(13, 13, 14);
+    display: flex;
+}
+.container div img{
+    margin-left: 20px;
+    margin-top: 1px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+   
+}
+
+nav ul li {
+    padding: 8px 15px;
+    border-radius: 10px;
+
+}
+
+nav ul li:hover {
+    background-color: rgb(79, 194, 79);
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://theglitz.media/wp-content/uploads/2023/07/AG8I4980-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+.section1 div img{
+    display: flex;
+}
+
+
+.section2{
+ 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), 
+    url("https://akm-img-a-in.tosshub.com/lingo/hrb/images/story/202308/untitled_design_-_2023-08-17t123122.409-sixteen_nine.png?size=1200:675");
+}
+
+.section3{
+   
+   
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/v2/L53ABIBOEKGTIQXC5XN4CSYOAM.jpg?smart=true&auth=dd9f10b0271223a6413c8288aa1625a9a472a981a039c80fd2912ac441c7300a&width=800&height=510");
+}
+
+.section4{
+  
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://thefanboi.wordpress.com/wp-content/uploads/2016/04/anita-dongre-sonakshi-sinha-e1459671083959.jpg?w=1200");
+}
+
+.section5{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://images.rawpixel.com/image_social_landscape/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg");
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-top: 200px;
+
+}
+
+.about{
+    text-align: center;
+}
+
+.contact{
+    text-align: left;
+}
+h2{
+    font-size: 44px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
+
+.bgpic{
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+}
+
+#lastsection{
+    text-align: left;
+}
